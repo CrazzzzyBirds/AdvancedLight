@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".section3.ViewActivity">
+<com.heima.advancedlight.section3.TitleView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:left_src="@mipmap/ic_launcher_round"
+    app:title_text_bg="@color/colorAccent"
+    app:title_text="title"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+</com.heima.advancedlight.section3.TitleView>
+    <com.heima.advancedlight.section3.MoveView
+        android:id="@+id/moveView"
+        android:layout_marginTop="50dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorAccent" />
+</LinearLayout>
